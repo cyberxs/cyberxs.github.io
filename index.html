@@ -1,12 +1,18 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
 	<title>First Class Fabrics</title>
+	<meta name="viewport" content="initial-scale=1">
+	<meta charset="utf-8">
+	<style>
+		.domain::before {content:"\0040"}	/* Unicode @ */
+	</style>
 </head>
 <body style="background-color:#000">
 	<div>
-		<img src="FCF_BC_Sonia.png" alt="business card" style="display:block; object-fit:contain; margin:auto; max-width:100%">
+		<a href="mailto:sonia<span class='domain'>firstclassfabrics.com</span>">
+			<img src="FCF_Sonia.jpg" alt="business card" style="display:block; object-fit:contain; margin:auto; max-width:100%">
+		</a>
 	</div>
 </body>
 </html>
